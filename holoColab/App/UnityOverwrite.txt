@@ -8,7 +8,7 @@
 holoColab.sln: modified
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 4FCF72A4D5EDB37E24C206A7BCFE7AF1
 holoColab\App.cs: D0741C9E83D47AF493009DC7ED8CB67F
-holoColab\holoColab.csproj: 206BC29759D50E356B6FD434C99AC05D
+holoColab\holoColab.csproj: 13B90E6554849ABCB5FFCE883B2E98DD
 holoColab\holoColab.csproj.user: modified
 holoColab\Package.appxmanifest: 0BB5B1275AF018D6D6ED05A873A086B0
 holoColab\project.json: 1D02BC64BAC0D041019673A1C4C51737

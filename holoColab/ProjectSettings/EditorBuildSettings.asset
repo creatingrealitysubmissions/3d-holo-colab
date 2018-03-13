@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/CarInterior.unity
     guid: ac06747c51097234dbe60ef2c61a4ae4
-  - enabled: 1
+  - enabled: 0
     path: Assets/HoloToolkit-Examples/Input/Scenes/CursorWithFeedback.unity
     guid: 7ff2e154c778b9143a124158080624ed
