@@ -870,6 +870,7 @@
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\TextureThemeWidget.cs" />
     <Compile Include="Assets\Scripts\Hotspot.cs" />
     <Compile Include="Assets\Scripts\RotateObject.cs" />
+    <Compile Include="Assets\ToolboxManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\PlaneCut.cginc" />
