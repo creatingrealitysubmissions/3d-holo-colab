@@ -12,34 +12,41 @@ public class Hotspot : MonoBehaviour {
 
     public GameObject ObjectToToggleVisibility;
 
+    [SerializeField]
+    public bool StartInvisible;
+
     public delegate void HotspotEntered();
     public static HotspotEntered OnHotspotEntered;
 
     public delegate void HotspotExited();
     public static HotspotExited OnHotspotExited;
 
+    bool CurrentState;
+
+    private void Start()
+    {
+        if (StartInvisible)
+        {
+            CurrentState = true;
+        }
+        else {
+            CurrentState = false;
+        }
+    }
+
     void OnTriggerEnter(Collider other)
     {
 
-        VisibilityOn();
-        //Debug.Log("login popup");
+        ObjectToToggleVisibility.SetActive(CurrentState);
+        Debug.Log("Trigger Entered");
+        CurrentState = !CurrentState;
     }
 
     void OnTriggerExit(Collider other)
     {
         //Debug.Log("Trigger exit");
-        VisibilityOff();
-        //Debug.Log("login go away");
-    }
-
-
-    private void VisibilityOn()
-    {
-        ObjectToToggleVisibility.SetActive(true);
-    }
-
-    private void VisibilityOff()
-    {
-        ObjectToToggleVisibility.SetActive(false);
+        ObjectToToggleVisibility.SetActive(CurrentState);
+        Debug.Log("Trigger Exited");
+        CurrentState = !CurrentState;
     }
 }
