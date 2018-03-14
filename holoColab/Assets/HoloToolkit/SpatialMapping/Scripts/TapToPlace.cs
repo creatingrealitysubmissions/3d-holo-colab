@@ -153,7 +153,6 @@ namespace HoloToolkit.Unity.SpatialMapping
             var layerCacheTarget = PlaceParentOnTap ? ParentGameObjectToPlace : gameObject;
             layerCacheTarget.SetLayerRecursively(IgnoreRaycastLayer, out layerCache);
             InputManager.Instance.PushModalInputHandler(gameObject);
-
             ToggleSpatialMesh();
             RemoveWorldAnchor();
         }

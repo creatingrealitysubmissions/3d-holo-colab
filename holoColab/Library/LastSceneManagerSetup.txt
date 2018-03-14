@@ -1,4 +1,1 @@
-sceneSetups:
-- path: Assets/MixedRealityToolkit-Unity-master/Assets/HoloToolkit-Examples/Input/Scenes/BasicCursor.unity
-  isLoaded: 0
-  isActive: 0
+sceneSetups: []
