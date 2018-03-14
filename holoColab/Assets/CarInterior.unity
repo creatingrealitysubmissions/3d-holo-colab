@@ -287,6 +287,7 @@ GameObject:
   - component: {fileID: 129593357}
   - component: {fileID: 129593356}
   - component: {fileID: 129593355}
+  - component: {fileID: 129593358}
   m_Layer: 0
   m_Name: TileBottom (5)
   m_TagString: Untagged
@@ -300,13 +301,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 129593353}
-  m_LocalRotation: {x: 0, y: 0.42261827, z: 0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0.38, y: -1, z: 0.32}
   m_LocalScale: {x: 0.3, y: 1, z: 0.01}
   m_Children: []
   m_Father: {fileID: 1443567318}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 50, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!23 &129593355
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -360,6 +361,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 129593353}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &129593358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 129593353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac8d5b128a1d8204fb76c86f47b75912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PivotAxis: 1
+  TargetTransform: {fileID: 308111057}
 --- !u!1 &174926326
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,6 +628,7 @@ GameObject:
   - component: {fileID: 498901394}
   - component: {fileID: 498901393}
   - component: {fileID: 498901392}
+  - component: {fileID: 498901395}
   m_Layer: 0
   m_Name: TileBottom (3)
   m_TagString: Untagged
@@ -627,13 +642,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 498901390}
-  m_LocalRotation: {x: 0.42261827, y: 0, z: 0.9063079, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.38, y: -1, z: -0.32}
   m_LocalScale: {x: 0.3, y: 1, z: 0.01}
   m_Children: []
   m_Father: {fileID: 1443567318}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 50, z: 180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &498901392
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -687,6 +702,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 498901390}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &498901395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 498901390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac8d5b128a1d8204fb76c86f47b75912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PivotAxis: 1
+  TargetTransform: {fileID: 308111057}
 --- !u!1 &531454677
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +726,7 @@ GameObject:
   - component: {fileID: 531454681}
   - component: {fileID: 531454680}
   - component: {fileID: 531454679}
+  - component: {fileID: 531454682}
   m_Layer: 0
   m_Name: TileTop (3)
   m_TagString: Untagged
@@ -711,13 +740,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 531454677}
-  m_LocalRotation: {x: 0.42261827, y: 0, z: 0.9063079, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.38, y: 0.49, z: -0.32}
   m_LocalScale: {x: 0.3, y: 1, z: 0.01}
   m_Children: []
   m_Father: {fileID: 1443567318}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 50, z: 180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &531454679
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -771,6 +800,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 531454677}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &531454682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 531454677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac8d5b128a1d8204fb76c86f47b75912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PivotAxis: 1
+  TargetTransform: {fileID: 308111057}
 --- !u!1001 &544700623
 Prefab:
   m_ObjectHideFlags: 0
@@ -878,6 +920,7 @@ GameObject:
   - component: {fileID: 785948460}
   - component: {fileID: 785948459}
   - component: {fileID: 785948458}
+  - component: {fileID: 785948461}
   m_Layer: 0
   m_Name: TileTop (5)
   m_TagString: Untagged
@@ -891,13 +934,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 785948456}
-  m_LocalRotation: {x: 0, y: 0.42261827, z: 0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0.38, y: 0.49000004, z: 0.32}
   m_LocalScale: {x: 0.3, y: 1, z: 0.01}
   m_Children: []
   m_Father: {fileID: 1443567318}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 50, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!23 &785948458
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -951,6 +994,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 785948456}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &785948461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 785948456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac8d5b128a1d8204fb76c86f47b75912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PivotAxis: 1
+  TargetTransform: {fileID: 308111057}
 --- !u!1 &799788824
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,6 +1018,7 @@ GameObject:
   - component: {fileID: 799788828}
   - component: {fileID: 799788827}
   - component: {fileID: 799788826}
+  - component: {fileID: 799788829}
   m_Layer: 0
   m_Name: TileBottom (6)
   m_TagString: Untagged
@@ -975,13 +1032,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 799788824}
-  m_LocalRotation: {x: 0, y: -0.42261827, z: 0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: -0.38, y: -1, z: 0.32}
   m_LocalScale: {x: 0.3, y: 1, z: 0.01}
   m_Children: []
   m_Father: {fileID: 1443567318}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: -50, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!23 &799788826
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1035,6 +1092,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 799788824}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &799788829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 799788824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac8d5b128a1d8204fb76c86f47b75912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PivotAxis: 1
+  TargetTransform: {fileID: 308111057}
 --- !u!1001 &822843456
 Prefab:
   m_ObjectHideFlags: 0
@@ -1116,6 +1186,7 @@ GameObject:
   - component: {fileID: 1074757900}
   - component: {fileID: 1074757899}
   - component: {fileID: 1074757898}
+  - component: {fileID: 1074757901}
   m_Layer: 0
   m_Name: TileTop (2)
   m_TagString: Untagged
@@ -1129,13 +1200,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1074757896}
-  m_LocalRotation: {x: -0.42261827, y: -0, z: 0.9063079, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.38, y: 0.49000004, z: -0.32}
   m_LocalScale: {x: 0.3, y: 1, z: 0.01}
   m_Children: []
   m_Father: {fileID: 1443567318}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -50, z: 180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1074757898
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1189,6 +1260,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1074757896}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1074757901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1074757896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac8d5b128a1d8204fb76c86f47b75912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PivotAxis: 1
+  TargetTransform: {fileID: 308111057}
 --- !u!1 &1235932570
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,6 +1284,7 @@ GameObject:
   - component: {fileID: 1235932574}
   - component: {fileID: 1235932573}
   - component: {fileID: 1235932572}
+  - component: {fileID: 1235932575}
   m_Layer: 0
   m_Name: TileBottom (2)
   m_TagString: Untagged
@@ -1213,13 +1298,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1235932570}
-  m_LocalRotation: {x: -0.42261827, y: -0, z: 0.9063079, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.38, y: -1, z: -0.32}
   m_LocalScale: {x: 0.3, y: 1, z: 0.01}
   m_Children: []
   m_Father: {fileID: 1443567318}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -50, z: 180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1235932572
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1273,6 +1358,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1235932570}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1235932575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1235932570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac8d5b128a1d8204fb76c86f47b75912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PivotAxis: 1
+  TargetTransform: {fileID: 308111057}
 --- !u!1 &1337302317
 GameObject:
   m_ObjectHideFlags: 0
@@ -2003,6 +2101,7 @@ GameObject:
   - component: {fileID: 1961251480}
   - component: {fileID: 1961251479}
   - component: {fileID: 1961251478}
+  - component: {fileID: 1961251482}
   m_Layer: 0
   m_Name: TileTop (6)
   m_TagString: Untagged
@@ -2016,13 +2115,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1961251476}
-  m_LocalRotation: {x: 0, y: -0.42261827, z: 0, w: 0.9063079}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: -0.38, y: 0.49000004, z: 0.32}
   m_LocalScale: {x: 0.3, y: 1, z: 0.01}
   m_Children: []
   m_Father: {fileID: 1443567318}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: -50, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!23 &1961251478
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2076,6 +2175,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1961251476}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1961251482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1961251476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac8d5b128a1d8204fb76c86f47b75912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PivotAxis: 1
+  TargetTransform: {fileID: 308111057}
 --- !u!1001 &2129920631
 Prefab:
   m_ObjectHideFlags: 0
