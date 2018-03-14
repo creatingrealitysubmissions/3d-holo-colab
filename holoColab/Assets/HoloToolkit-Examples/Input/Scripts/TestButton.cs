@@ -12,6 +12,9 @@ namespace HoloToolkit.Unity.InputModule.Tests
     /// </summary>
     public class TestButton : MonoBehaviour, IInputClickHandler, IFocusable
     {
+
+        public GameObject AssetToImport;
+
         public Transform ToolTip;
         public Renderer ToolTipRenderer;
 
@@ -199,17 +202,11 @@ namespace HoloToolkit.Unity.InputModule.Tests
 
         public void OnInputClicked(InputClickedEventData eventData)
         {
-            if (!EnableActivation)
-            {
-                return;
-            }
+            Debug.Log("Sweet jesus you got here");
+
+            AssetToImport.SetActive(true);
 
             Selected = !Selected;
-
-            if (Activated != null)
-            {
-                Activated(this);
-            }
 
             eventData.Use(); // Mark the event as used, so it doesn't fall through to other handlers.
         }

@@ -868,8 +868,10 @@
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\ScaleThemeWidget.cs" />
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\TextMeshColorThemeWidget.cs" />
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\TextureThemeWidget.cs" />
+    <Compile Include="Assets\ImportButton.cs" />
     <Compile Include="Assets\Scripts\Hotspot.cs" />
     <Compile Include="Assets\Scripts\RotateObject.cs" />
+    <Compile Include="Assets\SpeechController.cs" />
     <Compile Include="Assets\ToolboxManager.cs" />
   </ItemGroup>
   <ItemGroup>
