@@ -1,9 +1,14 @@
 # 3d-holo-colab
-IDEAS, COLLABIRATION, PEOPLE
-a collaboration tool for designing things for physical spaces
+Grab a Pixel
+a tool for designing the future of personal transportation spaces
 
 Team Members:
+
 Kyle Chadwick
+
 Albert Soto
+
 Edgar Reyes
 
+
+Developed for Hololens in Unity, leveraging the MRTK
