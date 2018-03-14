@@ -15496,7 +15496,7 @@
       "projectPath": "D:\\Unity\\HoloInterior\\holoColab\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
       "projectJsonPath": "D:\\Unity\\HoloInterior\\holoColab\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
       "packagesPath": "C:\\Users\\Kyle\\.nuget\\packages\\",
-      "outputPath": "D:\\Unity\\HoloInterior\\holoColab\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\x86\\Master\\",
+      "outputPath": "D:\\Unity\\HoloInterior\\holoColab\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\x86\\Release\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"

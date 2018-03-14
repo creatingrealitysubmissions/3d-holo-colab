@@ -8,7 +8,7 @@
 holoColab.sln: modified
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 4FCF72A4D5EDB37E24C206A7BCFE7AF1
 holoColab\App.cs: D0741C9E83D47AF493009DC7ED8CB67F
-holoColab\holoColab.csproj: 13B90E6554849ABCB5FFCE883B2E98DD
+holoColab\holoColab.csproj: 85CE5BC7633DEF0C143BBE9BF0E05520
 holoColab\holoColab.csproj.user: modified
 holoColab\Package.appxmanifest: 0BB5B1275AF018D6D6ED05A873A086B0
 holoColab\project.json: 1D02BC64BAC0D041019673A1C4C51737
@@ -24,6 +24,13 @@ holoColab\bin\x86\Master\ilc\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE
 holoColab\bin\x86\Master\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
 holoColab\bin\x86\Master\ilc\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
 holoColab\bin\x86\Master\ilc\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
+holoColab\bin\x86\Release\AppX\Assets\SplashScreen.scale-200.png: 60618416282ED104FD1473935716045D
+holoColab\bin\x86\Release\AppX\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
+holoColab\bin\x86\Release\AppX\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE9D870A9D564953775DE
+holoColab\bin\x86\Release\AppX\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
+holoColab\bin\x86\Release\AppX\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
+holoColab\bin\x86\Release\AppX\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
+holoColab\bin\x86\Release\AppX\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826
 holoColab\obj\x86\Debug\holoColab.csproj.CopyComplete: D41D8CD98F00B204E9800998ECF8427E
 holoColab\obj\x86\Master\holoColab.csproj.CopyComplete: D41D8CD98F00B204E9800998ECF8427E
 holoColab\obj\x86\Master\ilc\in\Assets\SplashScreen.scale-200.png: 60618416282ED104FD1473935716045D
@@ -33,5 +40,6 @@ holoColab\obj\x86\Master\ilc\in\Assets\Square44x44Logo.targetsize-24_altform-unp
 holoColab\obj\x86\Master\ilc\in\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
 holoColab\obj\x86\Master\ilc\in\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
 holoColab\obj\x86\Master\ilc\in\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826
+holoColab\obj\x86\Release\holoColab.csproj.CopyComplete: D41D8CD98F00B204E9800998ECF8427E
 holoColab\Properties\AssemblyInfo.cs: 7F23E10BCB4744E59FAE271FD4FF0FC7
 holoColab\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826

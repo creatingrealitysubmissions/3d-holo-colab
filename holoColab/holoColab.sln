@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holoColab", "holoColab.csproj", "{773A3334-360F-B368-6863-DBB73324F210}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "holoColab.Editor", "holoColab.Editor.csproj", "{FD6B3C8D-EBFF-D2FF-BF96-07C3F571B978}"
