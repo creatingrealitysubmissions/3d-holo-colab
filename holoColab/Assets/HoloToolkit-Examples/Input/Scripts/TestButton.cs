@@ -15,8 +15,8 @@ namespace HoloToolkit.Unity.InputModule.Tests
 
         public GameObject AssetToImport;
 
-        public Transform ToolTip;
-        public Renderer ToolTipRenderer;
+       // public Transform ToolTip;
+       // public Renderer ToolTipRenderer;
 
         private float toolTipTimer = 0.0f;
         public float ToolTipFadeTime = 0.25f;
@@ -106,65 +106,65 @@ namespace HoloToolkit.Unity.InputModule.Tests
         protected virtual void OnEnable()
         {
             // Set the initial alpha
-            if (ToolTipRenderer != null)
-            {
-                cachedToolTipMaterial = ToolTipRenderer.material;
+            //if (ToolTipRenderer != null)
+            //{
+             //   cachedToolTipMaterial = ToolTipRenderer.material;
 
-                Color tipColor = cachedToolTipMaterial.GetColor("_Color");
-                tipColor.a = 0.0f;
-                cachedToolTipMaterial.SetColor("_Color", tipColor);
-                toolTipTimer = 0.0f;
-            }
+           //     Color tipColor = cachedToolTipMaterial.GetColor("_Color");
+            //    tipColor.a = 0.0f;
+             //   cachedToolTipMaterial.SetColor("_Color", tipColor);
+              //  toolTipTimer = 0.0f;
+            //}
 
-            UpdateVisuals();
-            UpdateButtonAnimation();
+            //UpdateVisuals();
+            //UpdateButtonAnimation();
         }
 
-        private void Update()
-        {
-            if (ToolTipRenderer != null && (Focused && toolTipTimer < ToolTipFadeTime) || (!Focused && toolTipTimer > 0.0f))
-            {
+        //private void Update()
+        //{
+            //if (ToolTipRenderer != null && (Focused && toolTipTimer < ToolTipFadeTime) || (!Focused && toolTipTimer > 0.0f))
+            //{
                 // Calculate the new time delta
-                toolTipTimer = toolTipTimer + (Focused ? Time.deltaTime : -Time.deltaTime);
+              //  toolTipTimer = toolTipTimer + (Focused ? Time.deltaTime : -Time.deltaTime);
 
                 // Stop the timer if it exceeds the limit.  Clamp doesn't work here since time can be outside the normal range in some situations
-                if (Focused && toolTipTimer > ToolTipFadeTime)
-                {
-                    toolTipTimer = ToolTipFadeTime;
-                }
-                else if (!Focused && toolTipTimer < 0.0f)
-                {
-                    toolTipTimer = 0.0f;
-                }
+                //if (Focused && toolTipTimer > ToolTipFadeTime)
+                //{
+                  //  toolTipTimer = ToolTipFadeTime;
+                //}
+                //else if (!Focused && toolTipTimer < 0.0f)
+                //{
+                  //  toolTipTimer = 0.0f;
+                //}
 
                 // Update the new opacity
-                if (ToolTipRenderer != null)
-                {
-                    Color tipColor = cachedToolTipMaterial.GetColor("_Color");
-                    tipColor.a = Mathf.Clamp(toolTipTimer, 0, ToolTipFadeTime) / ToolTipFadeTime;
-                    cachedToolTipMaterial.SetColor("_Color", tipColor);
-                }
-            }
-        }
+                //if (ToolTipRenderer != null)
+                //{
+                  //  Color tipColor = cachedToolTipMaterial.GetColor("_Color");
+                    //tipColor.a = Mathf.Clamp(toolTipTimer, 0, ToolTipFadeTime) / ToolTipFadeTime;
+                    //cachedToolTipMaterial.SetColor("_Color", tipColor);
+                //}
+            //}
+        //}
 
-        public void DehydrateButton()
-        {
-            if (ButtonAnimator != null && ButtonAnimator.isInitialized)
-            {
-                if (animatorHashes == null)
-                {
-                    animatorHashes = ButtonAnimator.parameters;
-                }
-
-                for (int i = 0; i < animatorHashes.Length; i++)
-                {
-                    if (animatorHashes[i].nameHash == deHydrateButtonId)
-                    {
-                        ButtonAnimator.SetTrigger(deHydrateButtonId);
-                    }
-                }
-            }
-        }
+        //public void DehydrateButton()
+        //{
+         //   if (ButtonAnimator != null && ButtonAnimator.isInitialized)
+          //  {
+           //     if (animatorHashes == null)
+             //   {
+               //     animatorHashes = ButtonAnimator.parameters;
+                //}
+                //
+                //for (int i = 0; i < animatorHashes.Length; i++)
+                //{
+                  //  if (animatorHashes[i].nameHash == deHydrateButtonId)
+                    //{
+                      //  ButtonAnimator.SetTrigger(deHydrateButtonId);
+                    //}
+                //}
+            //}
+        //}
 
         // Child classes can override to update button visuals
         protected virtual void UpdateVisuals()
@@ -202,7 +202,6 @@ namespace HoloToolkit.Unity.InputModule.Tests
 
         public void OnInputClicked(InputClickedEventData eventData)
         {
-            Debug.Log("Sweet jesus you got here");
 
             AssetToImport.SetActive(true);
 

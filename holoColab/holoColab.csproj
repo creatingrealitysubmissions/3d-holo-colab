@@ -871,8 +871,6 @@
     <Compile Include="Assets\ImportButton.cs" />
     <Compile Include="Assets\Scripts\Hotspot.cs" />
     <Compile Include="Assets\Scripts\RotateObject.cs" />
-    <Compile Include="Assets\SpeechController.cs" />
-    <Compile Include="Assets\ToolboxManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\PlaneCut.cginc" />

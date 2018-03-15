@@ -94,6 +94,9 @@
     <AppxPackagedFile Include="D:\Unity\HoloInterior\holoColab\App\holoColab\bin\x86\Master\ilc\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Unity\HoloInterior\holoColab\App\holoColab\bin\x86\Master\ilc\Data\sharedassets0.resource">
+      <PackagePath>Data\sharedassets0.resource</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Unity\HoloInterior\holoColab\App\holoColab\bin\x86\Master\ilc\GpuTiming.dll">
       <PackagePath>GpuTiming.dll</PackagePath>
     </AppxPackagedFile>
